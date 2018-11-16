@@ -1,0 +1,14 @@
+language: perl
+
+perl:
+- '5.26'
+
+sudo: false
+
+before_install:
+- git clone --branch master --depth 1 https://github.com/Ensembl/ensembl-test.git
+
+install:
+- cpanm -v --installdeps --notest .
+
+script: ./travisci/harness.sh
