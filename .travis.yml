@@ -7,7 +7,7 @@ sudo: false
 
 before_install:
 - git clone --branch master --depth 1 https://github.com/Ensembl/ensembl-test.git
-
+- chmod +x travisci/harness.sh
 install:
 - cpanm -v --installdeps --notest .
 
