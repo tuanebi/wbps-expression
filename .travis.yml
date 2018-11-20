@@ -15,6 +15,6 @@ script: ./travisci/harness.sh
 notifications:
   email:
     recipients:
-       - zdfimpbw@tafmail.com
+       - zutrelapsa@ezehe.com
     on_success: always
     on_failure: always
