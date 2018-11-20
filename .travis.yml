@@ -12,3 +12,6 @@ install:
 - cpanm -v --installdeps --notest .
 
 script: ./travisci/harness.sh
+notifications:
+  email:
+    - zdfimpbw@tafmail.com
