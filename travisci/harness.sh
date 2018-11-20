@@ -1,5 +1,5 @@
 #!/bin/bash
-export PERL5LIB=$PWD/wbps-expression
+export PERL5LIB=.
 
 echo "Running test suite"
 echo "Using $PERL5LIB"
