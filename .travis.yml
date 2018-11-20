@@ -14,4 +14,7 @@ install:
 script: ./travisci/harness.sh
 notifications:
   email:
-    - zdfimpbw@tafmail.com
+    recipients:
+       - zdfimpbw@tafmail.com
+    on_success: always
+    on_failure: always
